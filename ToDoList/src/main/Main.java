@@ -19,7 +19,7 @@ public class Main {
 		String name = sc.nextLine();
 		System.out.println("Description of the task:");
 		String desc = sc.nextLine();
-		System.out.println("Expiry of the task ():");
+		System.out.println("Expiry of the task (dd.MM.yyyy. HH:mm):");
 	
 		boolean validFormat = false;
 		LocalDateTime ldtExp = null;
